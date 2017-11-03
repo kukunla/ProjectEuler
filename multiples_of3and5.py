@@ -9,4 +9,6 @@ def counting():
             result += i
     return result
 
-print(counting())
+
+if __name__ == '__main__':
+    print(counting())
