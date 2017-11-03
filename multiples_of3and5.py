@@ -3,9 +3,7 @@ def counting():
     result = 0
     while i > 2:
         i -= 1
-        k = i % 5
-        m = i % 3
-        if k == 0 or m == 0:
+        if i % 5 == 0 or i % 3 == 0:
             result += i
     return result
 
